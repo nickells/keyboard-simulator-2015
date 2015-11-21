@@ -1,10 +1,10 @@
-var keyDownSound = new Audio('keydown.wav');
-var keyUpSound = new Audio('keyup.wav');
 
 var keyDown = function(){
+  var keyDownSound = new Audio('keydown.wav');
   keyDownSound.play();
 };
 var keyUp = function(){
+  var keyUpSound = new Audio('keyup.wav');
   keyUpSound.play();
 };
 
