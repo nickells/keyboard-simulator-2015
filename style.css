@@ -1,0 +1,81 @@
+/* Styles go here */
+
+.thing {
+  font-family: sans-serif;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  background: linear-gradient(#888, #888, #777);
+  border-bottom: 15px solid #555;
+  border-radius: 2px;
+  margin: 1px;
+  padding: 5px;
+  padding-top: 8px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .1s;
+  -webkit-user-select: none;
+  box-shadow: 0 4px 4px #bbb, inset 0 0 2px #fff;
+  margin-bottom: 20px;
+}
+
+.thingContainer {
+  -webkit-transform: rotateX(40deg);
+}
+
+
+.thing {
+  font-family: sans-serif;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  font-size: 12px;
+  background: linear-gradient(#888, #888, #777);
+  border-bottom: 15px solid #555;
+  border-radius: 3px;
+  margin: 1px;
+  padding: 5px;
+  padding-top: 8px;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: .07s;
+  -webkit-user-select: none;
+  box-shadow: 0 4px 4px #bbb, inset 0 0 2px #fff;
+  margin-bottom: 20px;
+}
+
+.thingContainer {
+  -webkit-transform: rotateX(40deg);
+}
+.row{
+    position: fixed;
+}
+
+.row2{
+  margin-left: 20px;
+  z-index: 2;
+  top: 40px;
+}
+.row3{
+  margin-left: 40px;
+  z-index: 3;
+  top: 80px;
+}
+.row4{
+  margin-left: 100px;
+  top: 120px;
+  z-index: 4;
+}
+.bar{
+  width: 200px;
+}
+.active {
+  transform: translateY(11px);
+  border-bottom: 2px solid #666;
+  box-shadow: 0px 1px 1px #bbb, inset 0 0 2px #ccc;
+}

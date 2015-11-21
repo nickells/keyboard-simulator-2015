@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body ng-app="littleApp" ng-controller="mainCtrl">
+    <h1>keyboard simulator 2015</h1>
+    <div class="thingContainer">
+      <div class="row1">
+        <div class="thing"
+          ng-class="{'active': thing.active}"
+          ng-repeat="thing in things.slice(0,10)"
+        >{{thing.display}}</div>
+      </div>
+      <div class="row row2">
+        <div class="thing"
+          ng-class="{'active': thing.active}"
+          ng-repeat="thing in things.slice(10,20)"
+        >{{thing.display}}</div>
+      </div>
+      <div class="row row3">
+        <div class="thing"
+          ng-class="{'active': thing.active}"
+          ng-repeat="thing in things.slice(20,27)"
+        >{{thing.display}}</div>
+
+      </div>
+      <div class="row row4">
+        <div class="thing bar"
+          ng-class="{'active': thing.active}"
+          ng-repeat="thing in things.slice(27,28)"
+        >{{thing.display}}</div>
+      </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="script.js"></script>
+    <script src="listen.js"></script>
+  </body>
+
+</html>
