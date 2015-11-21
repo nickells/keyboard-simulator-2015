@@ -2,7 +2,6 @@
 
 
 .thing {
-  font-family: sans-serif;
   display: inline-block;
   width: 40px;
   height: 20px;
@@ -30,6 +29,7 @@
 }
 
 body{
+  font-family: sans-serif;
   text-align: center;
 }
 
