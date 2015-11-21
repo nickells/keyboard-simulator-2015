@@ -18,7 +18,6 @@ app.controller('mainCtrl', function($scope,$document) {
       idxOfLetter = letters.indexOf(';');
     }
     if ($scope.things[idxOfLetter]){
-      console.log('it exists')
       $scope.$apply($scope.setActive($scope.things[idxOfLetter]))
     }
   })
