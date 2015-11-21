@@ -1,5 +1,6 @@
 /* Styles go here */
 
+
 .thing {
   font-family: sans-serif;
   display: inline-block;
@@ -16,16 +17,22 @@
   text-align: center;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: .1s;
+  transition: .05s;
   -webkit-user-select: none;
   box-shadow: 0 4px 4px #bbb, inset 0 0 2px #fff;
   margin-bottom: 20px;
 }
 
 .thingContainer {
-  -webkit-transform: rotateX(40deg);
+  -webkit-transform: scale(2) rotateX(40deg);
+  width: 440px;
+  margin: 0 auto;
+  margin-top: 10%;
 }
 
+body{
+  text-align: center;
+}
 
 .thing {
   font-family: sans-serif;
@@ -49,9 +56,7 @@
   margin-bottom: 20px;
 }
 
-.thingContainer {
-  -webkit-transform: rotateX(40deg);
-}
+
 .row{
     position: fixed;
 }
@@ -75,7 +80,7 @@
   width: 200px;
 }
 .active {
-  transform: translateY(11px);
+  transform: translateY(12px);
   border-bottom: 2px solid #666;
   box-shadow: 0px 1px 1px #bbb, inset 0 0 2px #ccc;
 }
