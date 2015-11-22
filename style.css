@@ -23,7 +23,7 @@
 
 .thingContainer {
   -webkit-transform: scale(2) rotateX(40deg);
-  width: 370px;
+  width: 336px;
   margin: 0 auto;
   margin-top: 10%;
 }
@@ -67,22 +67,22 @@ body{
 }
 
 .row2{
-  margin-left: 20px;
+  margin-left: 16px;
   z-index: 2;
   top: 40px;
 }
 .row3{
-  margin-left: 40px;
+  margin-left: 32px;
   z-index: 3;
   top: 80px;
 }
 .row4{
-  margin-left: 60px;
+  margin-left: 76px;
   top: 120px;
   z-index: 4;
 }
 .bar{
-  width: 200px;
+  width: 180px;
 }
 .active {
   transform: translateY(7.5px);
