@@ -23,7 +23,7 @@
 
 .thingContainer {
   -webkit-transform: scale(2) rotateX(40deg);
-  width: 440px;
+  width: 370px;
   margin: 0 auto;
   margin-top: 10%;
 }
@@ -36,11 +36,11 @@ body{
 .thing {
   font-family: sans-serif;
   display: inline-block;
-  width: 30px;
+  width: 20px;
   height: 20px;
   font-size: 12px;
   background: linear-gradient(#888, #888, #777);
-  border-bottom: 15px solid #555;
+  border-bottom: 10px solid #555;
   border-radius: 3px;
   margin: 1px;
   padding: 5px;
@@ -60,6 +60,12 @@ body{
     position: fixed;
 }
 
+.row1{
+  margin-left: 0px;
+  z-index: 1;
+  top: 0px;
+}
+
 .row2{
   margin-left: 20px;
   z-index: 2;
@@ -71,7 +77,7 @@ body{
   top: 80px;
 }
 .row4{
-  margin-left: 100px;
+  margin-left: 60px;
   top: 120px;
   z-index: 4;
 }
@@ -79,7 +85,7 @@ body{
   width: 200px;
 }
 .active {
-  transform: translateY(12px);
+  transform: translateY(7.5px);
   border-bottom: 2px solid #666;
   box-shadow: 0px 1px 1px #bbb, inset 0 0 2px #ccc;
 }
